@@ -1,0 +1,35 @@
+{
+	"name": "AdnViewerBasic",
+	"description": "A basic node.js server sample",
+	"version": "1.0.0",
+	"dependencies": {
+		"adm-zip": "^0.4.7",
+		"async": "^1.4.2",
+		"body-parser": ">= 1.11.0",
+		"es6-promise": "^3.0.2",
+		"express": "^4.16.4",
+		"forge-apis": "^0.4.5",
+		"formidable": ">= 1.0.17",
+		"lodash": "^3.10.1",
+		"mkdirp": "^0.5.1",
+		"multer": "^0.1.8",
+		"request": "^2.64.0",
+		"serve-favicon": ">= 2.2.0",
+		"socket.io": "^1.4.5",
+		"socket.io-client": "^1.4.5",
+		"unirest": ">= 0.4.0",
+		"util": "^0.10.3",
+		"zlibjs": "^0.2.0"
+	},
+	"files": [
+		"LICENSE",
+		"README.md"
+	],
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"license": "MIT",
+	"scripts": {
+		"start": "node server.js"
+	}
+}
